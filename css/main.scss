@@ -57,6 +57,62 @@ body {
 
     .button-wrapper {
         display: block;
+        padding: 1.5em 0;
+
+        a {
+            border: solid 2px #FFD523 ;
+            background-color: #FFD523;
+            padding: 1em 4.4em;
+            font-family: 'Helvetica 95 Black';
+            font-weight: 500;
+            font-size: 1em;
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            border: solid 2px white;
+            background-color: white;
+            transition: 0.1s ease-in-out ;
+        }
+    }
+
+    .button-wrapper-alt {
+        display: block;
+        padding: 1.5em 0;
+
+        a {
+            border: solid 2px white ;
+            padding: 1em 2em;
+            font-family: 'Helvetica 95 Black';
+            font-weight: 500;
+            font-size: 1em;
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover{
+            border: solid 2px #FFD523 ;
+            background-color: #FFD523;
+            color: black;
+            transition: all ease-in-out 0.1s;
+        }
+    }
+
+    .herosec_desktop {
+        display: none;
+    }
+
+
+
+  @media screen and (min-width: 992px){
+    
+    .navbar-brand {
+        font-size: 4em;
+    }
+
+    .button-wrapper {
+        display: block;
         padding: 2em 0;
         padding-right: 1em;
 
@@ -100,10 +156,8 @@ body {
         }
     }
 
-  @media screen and (min-width: 992px){
-    
-    .navbar-brand {
-        font-size: 4em;
+    .herosec_mobile {
+        display: none;
     }
 
     .herosec_desktop {
