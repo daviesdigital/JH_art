@@ -5,6 +5,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Helvetica 65 Mid';
+    src: url('/css/fonts/HelveticaNeueLTPro-Md.woff2 ') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body {
     padding: 0 5%;
@@ -19,14 +26,57 @@ body {
 
   .nav-link {
     color: white;
+    font-family: 'Helvetica';
   }
 
   .nav-link:hover {
     color: #FFD523;
   }
 
-  
-
   .navbar-nav .nav-link.active, .navbar-nav .show {
     color: white;
+  }
+
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url(
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    h1 {
+        font-family: 'Helvetica 95 Black';
+        color: white;
+    }
+
+    p {
+        font-family: 'Helvetica 65 Mid';
+    }
+
+    .button-wrapper {
+        display: block;
+        padding: 2em 0;
+
+        a {
+            border: solid 2px white ;
+            padding: 1em 2em;
+            font-family: 'Helvetica 95 Black';
+            font-weight: 500;
+            font-size: 1em;
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover{
+            border: solid 2px #0056ff ;
+            background-color: #0056ff;
+            color: white;
+            transition: all ease-in-out 0.1s;
+        }
+    }
+
+  @media screen and (min-width: 992px){
+    
+    .navbar-brand {
+        font-size: 4em;
+    }
+
   }
