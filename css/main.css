@@ -6,7 +6,7 @@
 }
 @font-face {
   font-family: "Helvetica 65 Mid";
-  src: url("/css/fonts/HelveticaNeueLTPro-Md.woff2 ") format("woff2");
+  src: url("/css/fonts/HelveticaNeueLTPro-Md.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -22,7 +22,7 @@ body {
 
 .nav-link {
   color: white;
-  font-family: "Helvetica";
+  font-family: "Helvetica 65 Mid";
 }
 
 .nav-link:hover {
@@ -43,7 +43,7 @@ h1 {
 }
 
 p {
-  font-family: "Helvetica 65 Mid";
+  font-family: "Helvetica 65 Mid", Helvetica, sans-serif;
 }
 
 .button-wrapper {
