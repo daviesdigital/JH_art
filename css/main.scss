@@ -1,0 +1,16 @@
+body {
+    padding: 0 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+.navbar-collapse .collapse {
+    justify-content: right;
+    margin-right: 0;
+}
+
+.navbar .container-fluid .collapse .navbar-nav {
+    margin: auto;
+    margin-right: 0;
+    justify-content: right;
+  }
