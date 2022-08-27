@@ -140,4 +140,7 @@ p {
   .herosec_desktop {
     display: flex;
   }
+  .about-sec {
+    width: 60%;
+  }
 }/*# sourceMappingURL=main.css.map */
