@@ -1,24 +1,20 @@
 @font-face {
     font-family: "Helvetica-95-Black";
-    src: url("/JH_ART/raw/main/fonts/helvetica-neue-lt-std-95-black-594b91982fdff.woff2") format("woff2"),
-         url("/JH_ART/raw/main/fonts/helvetica-neue-lt-std-95-black-594b91982fdff.woff") format('woff'),
-         url("/JH_ART/raw/main/fonts/helvetica-neue-lt-std-95-black-594b91982fdff.otf") format('opentype');
+    src: url("/JH_art/raw/main/fonts/helvetica-neue-lt-std-95-black-594b91982fdff.woff2") format("woff2"),
+         url("/JH_art/raw/main/fonts/helvetica-neue-lt-std-95-black-594b91982fdff.woff") format('woff'),
+         url("/JH_art/raw/main/fonts/helvetica-neue-lt-std-95-black-594b91982fdff.otf") format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Helvetica-65-Mid";
-    src: url("/JH_ART/raw/main/fonts/HelveticaNeueLTPro-Md.woff2") format('woff2'),
-         url("/JH_ART/raw/main/fonts/HelveticaNeueLTPro-Md.woff") format('woff'),
-         url("/JH_ART/raw/main/fonts/HelveticaNeueLTPro-Md.otf") format('opentype');
+    src: url("/JH_art/raw/main/fonts/HelveticaNeueLTPro-Md.woff2") format('woff2'),
+         url("/JH_art/raw/main/fonts/HelveticaNeueLTPro-Md.woff") format('woff'),
+         url("/JH_art/raw/main/fonts/HelveticaNeueLTPro-Md.otf") format('opentype');
     font-weight: normal;
     font-style: normal;
 }
-
-
-
-
 
 body {
     padding: 0 5%;
