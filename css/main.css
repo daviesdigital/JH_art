@@ -91,6 +91,10 @@ p {
   display: none;
 }
 
+.about-sec {
+  width: 70%;
+}
+
 @media screen and (min-width: 992px) {
   .navbar-brand {
     font-size: 4em;
