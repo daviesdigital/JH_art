@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Helvetica 95 Black";
+    font-family: "Helvetica-95-Black";
     src: url('/css/fonts/helvetica-neue-lt-std-95-black-594b91982fdff.woff2') format('woff2'),
          url('/css/fonts/helvetica-neue-lt-std-95-black-594b91982fdff.woff') format('woff');;
     font-weight: normal;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: "Helvetica 65 Mid";
+    font-family: "Helvetica-65-Mid";
     src: url('/css/fonts/HelveticaNeueLTPro-Md.woff2') format('woff2'),
          url('/css/fonts/HelveticaNeueLTPro-Md.woff') format('woff');
     font-weight: normal;
@@ -28,7 +28,7 @@ body {
 
   .nav-link {
     color: white;
-    font-family: 'Helvetica 65 Mid';
+    font-family: 'Helvetica-65-Mid';
   }
 
   .nav-link:hover {
@@ -49,12 +49,12 @@ body {
     }
 
     h1 {
-        font-family: 'Helvetica 95 Black';
+        font-family: 'Helvetica-95-Black';
         color: white;
     }
 
     p {
-        font-family: 'Helvetica 65 Mid', Helvetica, sans-serif;
+        font-family: 'Helvetica-65-Mid', Helvetica, sans-serif;
     }
 
     .button-wrapper {
@@ -65,7 +65,7 @@ body {
             border: solid 2px #FFD523 ;
             background-color: #FFD523;
             padding: 1em 4.4em;
-            font-family: 'Helvetica 95 Black';
+            font-family: 'Helvetica-95-Black';
             font-weight: 500;
             font-size: 1em;
             color: black;
@@ -86,7 +86,7 @@ body {
         a {
             border: solid 2px white ;
             padding: 1em 2em;
-            font-family: 'Helvetica 95 Black';
+            font-family: 'Helvetica-95-Black';
             font-weight: 500;
             font-size: 1em;
             color: white;
@@ -122,7 +122,7 @@ body {
             border: solid 2px #FFD523 ;
             background-color: #FFD523;
             padding: 1em 4.4em;
-            font-family: 'Helvetica 95 Black';
+            font-family: 'Helvetica-95-Black';
             font-weight: 500;
             font-size: 1em;
             color: black;
@@ -143,7 +143,7 @@ body {
         a {
             border: solid 2px white ;
             padding: 1em 2em;
-            font-family: 'Helvetica 95 Black';
+            font-family: 'Helvetica-95-Black';
             font-weight: 500;
             font-size: 1em;
             color: white;
