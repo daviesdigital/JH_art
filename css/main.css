@@ -6,7 +6,7 @@
 }
 @font-face {
   font-family: "Helvetica-65-Mid";
-  src: url("/JH_ART/raw/main//fonts/HelveticaNeueLTPro-Md.woff2") format("woff2"), url("/JH_ART/raw/main/fonts/HelveticaNeueLTPro-Md.woff") format("woff"), url("/JH_ART/raw/main/fonts/HelveticaNeueLTPro-Md.otf") format("opentype");
+  src: url("/JH_ART/raw/main/fonts/HelveticaNeueLTPro-Md.woff2") format("woff2"), url("/JH_ART/raw/main/fonts/HelveticaNeueLTPro-Md.woff") format("woff"), url("/JH_ART/raw/main/fonts/HelveticaNeueLTPro-Md.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
