@@ -115,18 +115,16 @@ body {
     .grid-container {
         padding: 3em;
         display: grid;
-        grid-gap: 3em;
+        grid-gap: 2em;
         grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
         
     }
 
     .grid-section {
-        background: rgba(185, 185, 185, 0.2);
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        background: rgba(255, 255, 255, 0.5);
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
-
-        max-width: 450px;
+        border: 1px solid rgba(255, 255, 255, 0.09);
         
     }
 
@@ -193,6 +191,11 @@ body {
 
     .about-sec {
         width: 60%;
+    }
+
+    .span-2 {
+        grid-column: auto / span 2;
+        max-width: 1000px;
     }
 
   }
