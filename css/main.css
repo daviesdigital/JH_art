@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Helvetica-95-Black";
-  src: url("../../JH_art/fonts/helvetica-neue-lt-std-95-black-594b91982fdff.woff2") format("woff2"), url("../../JH_art/fonts/helvetica-neue-lt-std-95-black-594b91982fdff.woff") format("woff"), url("../../JH_art/fonts/helvetica-neue-lt-std-95-black-594b91982fdff.otf") format("opentype");
+  src: url("../../JH_art/fonts/helvetica-neue-lt-std-95-black-594b91982fdff.woff2") format("woff2"), url("../../JH_art/fonts/helvetica-neue-lt-std-95-black-594b91982fdff.woff") format("woff"), url("../../JH_art/fonts/helvetica-neue-lt-std-95-black-594b91982fdff.otf") format("opentype"), local("Helvetica 95 Black");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Helvetica-65-Mid";
-  src: url("../../JH_art/fonts/HelveticaNeueLTPro-Md.woff2") format("woff2"), url("../../JH_art/fonts/HelveticaNeueLTPro-Md.woff") format("woff"), url("../../JH_art/fonts/HelveticaNeueLTPro-Md.otf") format("opentype");
+  src: url("../../JH_art/fonts/HelveticaNeueLTPro-Md.woff2") format("woff2"), url("../../JH_art/fonts/HelveticaNeueLTPro-Md.woff") format("woff"), url("../../JH_art/fonts/HelveticaNeueLTPro-Md.otf") format("opentype"), local("Helvetica 65 Mid");
   font-weight: normal;
   font-style: normal;
 }
@@ -40,6 +40,10 @@ body {
 h1 {
   font-family: "Helvetica-95-Black";
   color: white;
+}
+
+h1 {
+  font-family: "Helvetica-95-Black";
 }
 
 p {
@@ -93,6 +97,13 @@ p {
 
 .about-sec {
   width: 85%;
+}
+
+.grid-container {
+  padding: 3em;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 @media screen and (min-width: 992px) {
