@@ -42,7 +42,7 @@ h1 {
   color: white;
 }
 
-h1 {
+h3 {
   font-family: "Helvetica-95-Black";
 }
 
@@ -108,11 +108,9 @@ p {
 
 .grid-section {
   background: rgba(185, 185, 185, 0.2);
-  border-radius: 5px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(185, 185, 185, 0.09);
 }
 
 @media screen and (min-width: 992px) {
