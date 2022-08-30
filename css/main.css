@@ -111,9 +111,12 @@ p {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   max-width: 550px;
+  transition: 0.4s;
+  color: white;
 }
-.grid-section :hover {
-  background: #FFD523;
+
+.grid-section:hover {
+  background: rgb(60, 60, 60);
 }
 
 @media screen and (min-width: 992px) {
