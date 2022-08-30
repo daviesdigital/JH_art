@@ -20,7 +20,11 @@ body {
   flex-grow: 0;
 }
 
-.navbar-brand:hover {
+.navbar-brand.fw-bold:hover {
+  color: white;
+}
+
+.navbar-brand.fw-bold:hover {
   color: #FFD523;
 }
 
