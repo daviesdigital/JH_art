@@ -20,7 +20,7 @@ body {
   flex-grow: 0;
 }
 
-.navbar-brand.fw-bold:hover {
+.navbar-brand.fw-bold {
   color: white;
 }
 
