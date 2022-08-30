@@ -117,6 +117,7 @@ p {
 
 .grid-section:hover {
   background: rgb(60, 60, 60);
+  color: #FFD523;
 }
 
 @media screen and (min-width: 992px) {
