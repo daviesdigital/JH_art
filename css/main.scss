@@ -120,6 +120,17 @@ body {
         width: 85%;
     }
 
+    .about_link {
+        font-family: 'Helvetica-65-Mid'; 
+        text-decoration-color: #FFD523;
+        color: white;
+        text-align: center;
+    }
+    
+    .about_link:hover {
+        color: #FFD523;
+    }
+
     .grid-container {
         padding: 3em;
         display: grid;
@@ -141,6 +152,8 @@ body {
         background: rgb(60, 60, 60);
         color: #FFD523;
      }
+
+     
 
 
 

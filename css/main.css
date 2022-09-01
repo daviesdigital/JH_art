@@ -107,6 +107,18 @@ p {
   width: 85%;
 }
 
+.about_link {
+  font-family: "Helvetica-65-Mid";
+  -webkit-text-decoration-color: #FFD523;
+          text-decoration-color: #FFD523;
+  color: white;
+  text-align: center;
+}
+
+.about_link:hover {
+  color: #FFD523;
+}
+
 .grid-container {
   padding: 3em;
   display: grid;
