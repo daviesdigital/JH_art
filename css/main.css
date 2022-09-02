@@ -153,6 +153,7 @@ p {
   font-family: "Helvetica-65-Mid";
   text-align: center;
   color: gray;
+  padding: 0;
 }
 
 @media screen and (min-width: 479px) {
