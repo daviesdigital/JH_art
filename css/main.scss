@@ -132,10 +132,9 @@ body {
     }
 
     .grid-container {
-        padding: 3em;
         display: grid;
         grid-gap: 2em;
-        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         
     }
 
@@ -163,9 +162,21 @@ body {
         border-top: none;
      }
 
-     
+@media screen and (min-width: 600px){
+    .grid-container {
+        padding: 3em;
+        display: grid;
+        grid-gap: 2em;
+        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+        
+    }
 
+    .grid-section {
+        padding: 2em; text-align: center;
+    }
 
+    
+}
 
 @media screen and (min-width: 992px){
 
