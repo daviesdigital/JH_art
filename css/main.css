@@ -149,6 +149,12 @@ p {
   border-top: none;
 }
 
+.price {
+  font-family: "Helvetica-65-Mid";
+  text-align: center;
+  color: gray;
+}
+
 @media screen and (min-width: 600px) {
   .grid-container {
     padding: 3em;
