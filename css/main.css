@@ -134,6 +134,9 @@ p {
   height: auto;
   transition: 0.4s;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid-section:hover {
